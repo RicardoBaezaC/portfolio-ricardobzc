@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400;500;600;700&family=Readex+Pro:wght@200;400;500;700&display=swap");
+
+:root {
+  --text-color: white;
+  --text-cursor-color: white;
+  --text-size: 2rem;
+  --cursor-timing: 0.7s;
+}
+
+.typing-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing-text span {
+  min-height: calc(var(--text-size) + 1rem);
+  font-size: var(--text-size);
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-color);
+  animation: typing var(--cursor-timing) ease-in-out infinite;
+}
+
+@keyframes typing {
+  0% {
+    border-right: 0;
+  }
+  100% {
+    border-right: 1px solid var(--text-cursor-color);
+  }
+}
+
+@media (max-width: 600px) {
+  .typing-text span{
+    font-size: calc(var(--text-size) - 1rem);
+    min-height: calc(var(--text-size) - 0.5rem);
+  }
+}

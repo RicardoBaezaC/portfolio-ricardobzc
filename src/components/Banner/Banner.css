@@ -1,0 +1,11 @@
+.banner-container{
+    min-height: 100vh;
+    background-image: url("../../assets/img/home-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

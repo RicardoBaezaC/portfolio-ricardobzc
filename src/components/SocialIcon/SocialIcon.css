@@ -1,0 +1,67 @@
+:root{
+    --background-icon: black;
+    --border-icon: white;
+    --width-icon: 40px;
+}
+
+.logo {
+  aspect-ratio: 1;
+  width: var(--width-icon);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-icon);
+  aspect-ratio: 1;
+  width: inherit;
+  position: relative;
+  border: 2px solid var(--border-icon);
+  border-radius: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.logo a::before {
+  content: "";
+  aspect-ratio: 1;
+  width: inherit;
+  position: absolute;
+  border-radius: 100%;
+  background-color: inherit;
+  filter: invert(100%);
+  transform: scale(0);
+}
+
+.logo a:hover::before {
+  animation: color-logo 0.3s ease-in-out forwards;
+}
+
+@keyframes color-logo {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo a img {
+  aspect-ratio: 1;
+  width: 50%;
+  pointer-events: none;
+  filter: invert(100%);
+}
+
+.instagram,
+.github {
+  width: 60% !important;
+}
+
+.logo a:hover img {
+  filter: invert(0%);
+}
