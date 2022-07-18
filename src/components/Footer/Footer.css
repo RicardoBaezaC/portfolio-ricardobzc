@@ -17,7 +17,7 @@
 }
 
 .footer-description-container{
-    width: fill;
+    width: stretch;
     display: flex;
     flex-direction: column;
     justify-content: center;
