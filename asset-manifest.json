@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RicardoBaezaC/portfolio-ricardobzc/static/css/main.1bbd31f2.css",
-    "main.js": "/RicardoBaezaC/portfolio-ricardobzc/static/js/main.7c4015df.js",
+    "main.css": "/RicardoBaezaC/portfolio-ricardobzc/static/css/main.f3add570.css",
+    "main.js": "/RicardoBaezaC/portfolio-ricardobzc/static/js/main.5ac1c5ab.js",
     "static/media/star-wars-api.png": "/RicardoBaezaC/portfolio-ricardobzc/static/media/star-wars-api.60805f4f023ddf06d17d.png",
     "static/media/clouds.png": "/RicardoBaezaC/portfolio-ricardobzc/static/media/clouds.267b3c26923e48324246.png",
     "static/media/CV.pdf": "/RicardoBaezaC/portfolio-ricardobzc/static/media/CV.3eb2b511ee6c444d7b7e.pdf",
@@ -22,11 +22,11 @@
     "index.html": "/RicardoBaezaC/portfolio-ricardobzc/index.html",
     "static/media/instagram.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/instagram.914797670786da7d0f98e4a178720130.svg",
     "static/media/js.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/js.0dd1cf6c80bb500c655a617006c1148a.svg",
-    "main.1bbd31f2.css.map": "/RicardoBaezaC/portfolio-ricardobzc/static/css/main.1bbd31f2.css.map",
-    "main.7c4015df.js.map": "/RicardoBaezaC/portfolio-ricardobzc/static/js/main.7c4015df.js.map"
+    "main.f3add570.css.map": "/RicardoBaezaC/portfolio-ricardobzc/static/css/main.f3add570.css.map",
+    "main.5ac1c5ab.js.map": "/RicardoBaezaC/portfolio-ricardobzc/static/js/main.5ac1c5ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bbd31f2.css",
-    "static/js/main.7c4015df.js"
+    "static/css/main.f3add570.css",
+    "static/js/main.5ac1c5ab.js"
   ]
 }
