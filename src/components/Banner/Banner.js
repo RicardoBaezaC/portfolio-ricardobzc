@@ -6,7 +6,7 @@ export const Banner = () => {
         <section className="banner-container" id="home">
             <TypingText sentence="Hi, I'm Ricardo, a Fullstack Developer"/>
             <br/>
-            <button className="btn"><span>Contact Me!</span></button>
+            <a className="btn" href="#contact"><span>Contact Me!</span></a>
         </section>
     )
 }
