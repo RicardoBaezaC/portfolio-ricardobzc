@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/RicardoBaezaC/portfolio-ricardobzc/static/css/main.1bbd31f2.css",
+    "main.js": "/RicardoBaezaC/portfolio-ricardobzc/static/js/main.7c4015df.js",
+    "static/media/star-wars-api.png": "/RicardoBaezaC/portfolio-ricardobzc/static/media/star-wars-api.60805f4f023ddf06d17d.png",
+    "static/media/clouds.png": "/RicardoBaezaC/portfolio-ricardobzc/static/media/clouds.267b3c26923e48324246.png",
+    "static/media/CV.pdf": "/RicardoBaezaC/portfolio-ricardobzc/static/media/CV.3eb2b511ee6c444d7b7e.pdf",
+    "static/media/my-photo.jpeg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/my-photo.2e27ce6e7dec9938813a.jpeg",
+    "static/media/home-background.jpeg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/home-background.a4f0c057d5c93b212bb1.jpeg",
+    "static/media/react.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/sql.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/sql.008188fcebd592127a06d8acce8bd5a4.svg",
+    "static/media/nodejs.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/nodejs.20b6ca74617c9b4d2d5552f50a096520.svg",
+    "static/media/java.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/java.0e81967422e1a32526deb8d3a9ec68b3.svg",
+    "static/media/php.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/php.86250ddb9d5bbfb47e9cb43fd2bc7a24.svg",
+    "static/media/nosql.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/nosql.464a4e8bb6d791cfa542bd7b0faa2507.svg",
+    "static/media/py.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/py.42f87cb3c004a68af35276b967671a1c.svg",
+    "static/media/linkedin.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/linkedin.d09d64fe30b941c2d5dba4695179f496.svg",
+    "static/media/css.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/css.aec31ad6887c3a820a1b3b8e2b9d9937.svg",
+    "static/media/facebook.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/facebook.145b70d3ebc4c999f7ddfbb7449fa5f9.svg",
+    "static/media/html.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/html.50b3a9cc6fa66c879f2f35654529a08b.svg",
+    "static/media/github.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/github.d4c3fbf515a5c4b4dd5dac6532c2959d.svg",
+    "index.html": "/RicardoBaezaC/portfolio-ricardobzc/index.html",
+    "static/media/instagram.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/instagram.914797670786da7d0f98e4a178720130.svg",
+    "static/media/js.svg": "/RicardoBaezaC/portfolio-ricardobzc/static/media/js.0dd1cf6c80bb500c655a617006c1148a.svg",
+    "main.1bbd31f2.css.map": "/RicardoBaezaC/portfolio-ricardobzc/static/css/main.1bbd31f2.css.map",
+    "main.7c4015df.js.map": "/RicardoBaezaC/portfolio-ricardobzc/static/js/main.7c4015df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bbd31f2.css",
+    "static/js/main.7c4015df.js"
+  ]
+}
