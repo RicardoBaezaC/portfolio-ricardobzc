@@ -15,14 +15,14 @@ import { useEffect, useState, useRef } from 'react'
 
 export const Skills = () => {
 
-  const background = useRef(null)
+  const backgroundColor = useRef(null)
   const [y, setY] = useState(0)
   const [x, setX] = useState(0)
   const [lastScrolled, setLastScrolled] = useState(0)
 
   useEffect(() => {
-    console.log(background.current.getBoundingClientRect().width);
-    if (background.current.getBoundingClientRect().width > 800) {
+    const background = backgroundColor.current
+    if (background.getBoundingClientRect().width > 800) {
       const mouseMove = (e) => {
         setX(e.clientX)
         setY(e.pageY - 1420)
@@ -36,13 +36,13 @@ export const Skills = () => {
         }
       }
 
-      background.current.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(42,42,42,1) 0%, rgba(250,250,250,0.7816920518207283) 0%, rgba(0,0,0,1) 10%)`;
+      background.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(42,42,42,1) 0%, rgba(250,250,250,0.7816920518207283) 0%, rgba(0,0,0,1) 10%)`;
 
-      background.current.addEventListener('mousemove', mouseMove)
+      background.addEventListener('mousemove', mouseMove)
       window.addEventListener('onScroll', scrollMove)
 
       return () => {
-        background.current.removeEventListener('mousemove', mouseMove)
+        background.removeEventListener('mousemove', mouseMove)
         window.removeEventListener('onScroll', scrollMove)
       }
     }
@@ -50,7 +50,7 @@ export const Skills = () => {
   }, [x, y, lastScrolled])
 
   return (
-    <section ref={background} style={{ background: "background: rgb(42,42,42)" }} className="skills-content-container" id="skills">
+    <section ref={backgroundColor} style={{ background: "background: rgb(42,42,42)" }} className="skills-content-container" id="skills">
       <h2>Technologies</h2>
       <div className="skills-container">
         <img src={JS} alt="logo-js" />

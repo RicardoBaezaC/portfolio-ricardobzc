@@ -19,7 +19,7 @@ export const About = () => {
             <a className="btn black" href={CV} target="_blank" rel="noopener noreferrer"><span>Download CV</span></a>
         </div>
         <div className="about-photo-container">
-            <img className="about-photo" src={Photo} alt="my-photo"/>
+            <img className="about-photo" src={Photo} alt="me-with-my-ferret"/>
         </div>
     </section>
   )
