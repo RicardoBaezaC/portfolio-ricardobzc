@@ -29,7 +29,7 @@ export const ContactForm = () => {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        axios.get('https://server-portfolio-ricardobzc.herokuapp.com/', form)
+        axios.post('https://server-portfolio-ricardobzc.herokuapp.com/contact', form)
         .then( response => {
             showAlert("success")
         })
