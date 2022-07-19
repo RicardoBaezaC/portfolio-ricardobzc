@@ -10,9 +10,9 @@ export const About = () => {
                 <h1>José Ricardo Baeza Candor</h1>
                 <h3>Computer Systems Engineer</h3>
                 <p>
-                    My name is José Ricardo Baeza Candor, I am 22 years old, 
+                    My name is José Ricardo Baeza Candor, I am 23 years old, 
                     I just graduated from the Computer Systems Engineering career 
-                    with a specialization on Data Science at the National Technological Institute of Mexico Campus Colima, 
+                    with a specialization on Data Science at the Tecnológico Nacional de México Mexico Campus Colima, 
                     I am passionate about programming, mathematics and music
                 </p>
             </div>
