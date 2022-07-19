@@ -1,6 +1,8 @@
 import './ContactForm.css'
 import Clouds from '../../assets/img/clouds.png'
 import { useState } from 'react'
+import axios from 'axios'
+
 
 export const ContactForm = () => {
 
@@ -19,7 +21,13 @@ export const ContactForm = () => {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        console.log(form);
+        axios.post('https://server-portfolio-ricardobzc.herokuapp.com/contact', form)
+          .then(function (response) {
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
         setForm({
             firstname: "",
             lastname: "",
@@ -27,7 +35,6 @@ export const ContactForm = () => {
             phone: "",
             message: ""
         })
-        console.log(form);
     }
 
     return (

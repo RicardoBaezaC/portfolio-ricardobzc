@@ -1,7 +1,7 @@
 .skills-content-container{
     min-height: 100vh;
-    background: rgb(42,42,42);
-    background: radial-gradient(circle at 711px 516px, rgba(42,42,42,1) 0%, rgba(212,108,26,0.9816920518207283) 0%, rgba(0,0,0,1) 8%);
+    /* background: rgb(42,42,42); */
+    background: radial-gradient(circle, rgba(42,42,42,1) 0%, rgba(191,183,177,0.9542410714285714) 0%, rgba(0,0,0,0.8954175420168067) 19%);
     color: white;
     display: flex;
     flex-direction: column;

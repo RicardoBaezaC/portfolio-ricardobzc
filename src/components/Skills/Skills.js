@@ -36,7 +36,8 @@ export const Skills = () => {
         }
       }
 
-      background.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(42,42,42,1) 0%, rgba(250,250,250,0.7816920518207283) 0%, rgba(0,0,0,1) 10%)`;
+      /* background.style.background = "rgb(42,42,42)" */
+      background.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(42,42,42,1) 0%, rgba(191,183,177,0.9542410714285714) 0%, rgba(0,0,0,0.8954175420168067) 19%)`;  
 
       background.addEventListener('mousemove', mouseMove)
       window.addEventListener('onScroll', scrollMove)
