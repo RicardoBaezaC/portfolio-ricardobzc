@@ -1,0 +1,65 @@
+.alert-container {
+    width: 60vw;
+    min-height: 60px;
+    position:  fixed;
+    left: 20%;
+    top: 85%;
+    z-index: 20;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px 10px rgb(0,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+@keyframes alert-start {
+    0%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.success{
+    background: linear-gradient(50deg, rgb(20, 126, 36) 0%, rgb(60, 202, 74) 100%);
+}
+
+.failure{
+    background: linear-gradient(50deg, rgb(169, 47, 47) 0%, rgb(197, 81, 81) 100%);
+}
+
+.start{
+    animation: alert-start 0.5s linear forwards;
+}
+
+.finish{
+    animation: alert-finish 0.5s linear forwards;
+}
+
+@keyframes alert-finish {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(200px);
+    }
+}
+
+.icon-alert{
+    
+}
+
+.alert-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+}

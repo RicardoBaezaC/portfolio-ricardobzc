@@ -2,9 +2,18 @@ import './ContactForm.css'
 import Clouds from '../../assets/img/clouds.png'
 import { useState } from 'react'
 import axios from 'axios'
+import { Alert } from '../Alert/Alert'
 
 
 export const ContactForm = () => {
+
+    const [alertIsVisible, setAlertIsVisible] = useState(false)
+    const [alertType, setAlertType] = useState("success")
+
+    const showAlert = (type) => {
+        setAlertIsVisible(true)
+        setAlertType(type)
+    }
 
     const [form, setForm] = useState({
         firstname: "",
@@ -15,19 +24,18 @@ export const ContactForm = () => {
     })
 
     const handleFormChange = (e) => {
-        console.log(e.target.name, e.target.value, form[e.target.name])
         setForm({...form,[e.target.name]: e.target.value})
     }
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
         axios.post('https://server-portfolio-ricardobzc.herokuapp.com/contact', form)
-          .then(function (response) {
-            console.log(response);
-          })
-          .catch(function (error) {
-            console.log(error);
-          });
+        .then( response => {
+            showAlert("success")
+        })
+        .catch( error => {
+            showAlert("failure")
+        });
         setForm({
             firstname: "",
             lastname: "",
@@ -53,6 +61,7 @@ export const ContactForm = () => {
                     <button type="submit" className="btn"><span>Submit</span></button>
                 </form>
             </div>
+            {alertIsVisible && <Alert type={alertType} message="Se ha enviado el correo exitosamente" alertIsVisible={alertIsVisible} setAlertIsVisible={setAlertIsVisible}/>}
         </section>
     )
 }
