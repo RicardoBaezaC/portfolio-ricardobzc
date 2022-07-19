@@ -12,7 +12,7 @@
     align-items: center;
     font-weight: 700;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 10px;
 }
@@ -62,4 +62,10 @@
     align-items: center;
     text-align: center;
     padding-left: 10px;
+}
+
+@media (max-width: 730px) {
+    .alert-container{
+        justify-content: space-around;
+    }
 }
