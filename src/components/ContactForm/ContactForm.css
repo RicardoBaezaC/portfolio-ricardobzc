@@ -67,9 +67,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.contact-container-img img{
+.contact-container-img > img{
     height: 220px;
     animation: cloud-movement 3s ease-in-out infinite alternate;
 }
