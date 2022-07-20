@@ -6,16 +6,16 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "SiGAC",
-      description: "Project for TecNM Colima",
-      imgURL: "https://dimensionrealdecolima.com.mx/wp-content/uploads/2021/10/Nota-Tec-Colima-800x445.jpeg",
-      url: "https://github.com/TheViccs/Extraescolares"
-    },
-    {
       title: "Star Wars API",
       description: "Project that shows the Star Wars characters",
       imgURL: StarWars,
       url: "https://starwars-api-ricardobzc.netlify.app/"
+    },
+    {
+      title: "SiGAC",
+      description: "Project for TecNM Colima",
+      imgURL: "https://dimensionrealdecolima.com.mx/wp-content/uploads/2021/10/Nota-Tec-Colima-800x445.jpeg",
+      url: "https://github.com/TheViccs/Extraescolares"
     }
   ]
 

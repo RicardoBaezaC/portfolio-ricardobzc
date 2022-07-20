@@ -26,4 +26,9 @@
     aspect-ratio: 1;
 }
 
+.skills-container img:hover{
+    box-shadow: 0 0.8em 0.2em -0.2em rgb(78, 76, 76);
+    transform: translateY(-10%);
+}
+
 
