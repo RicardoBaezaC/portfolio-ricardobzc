@@ -12,8 +12,9 @@ export const About = () => {
                 <p>
                     My name is José Ricardo Baeza Candor, I am 23 years old, 
                     I just graduated from the Computer Systems Engineering career 
-                    with a specialization on Data Science at the Tecnológico Nacional de México Mexico Campus Colima, 
+                    with a specialization on Data Science at the Tecnológico Nacional de México Mexico Campus Colima,
                     I am passionate about programming, mathematics and music
+                    Currently I am working at Tata Consultancy Services
                 </p>
             </div>
             <a className="btn black" href={CV} target="_blank" rel="noopener noreferrer"><span>Download CV</span></a>

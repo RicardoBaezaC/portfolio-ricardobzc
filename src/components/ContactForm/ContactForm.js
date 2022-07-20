@@ -8,6 +8,7 @@ import instagram from '../../assets/img/instagram.svg'
 import linkedin from '../../assets/img/linkedin.svg'
 import github from '../../assets/img/github.svg'
 import facebook from '../../assets/img/facebook.svg'
+import mail from '../../assets/img/mail.svg'
 
 
 export const ContactForm = () => {
@@ -59,6 +60,7 @@ export const ContactForm = () => {
                     <SocialIcon name="facebook" image={facebook} url="https://web.facebook.com/ricardo.baezacandor.3" />
                     <SocialIcon name="github" image={github} url="https://github.com/RicardoBaezaC" />
                     <SocialIcon name="linkedin" image={linkedin} url="https://www.linkedin.com/in/jos%C3%A9-ricardo-baeza-candor-864a55242/" />
+                    <SocialIcon name="mail" image={mail} url="mailto:jricardobzc@gmail.com" />
                 </div>
             </div>
             <div className="contact-form-container">
