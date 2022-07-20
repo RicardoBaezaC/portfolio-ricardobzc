@@ -32,7 +32,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-.contact-form input[type="text"], .contact-form input[type="phone"], .contact-form input[type="email"], .contact-form textarea{
+.contact-form input[type="text"], .contact-form input[type="tel"], .contact-form input[type="email"], .contact-form textarea{
     width: 100%;
     font-family: "Poppins", sans-serif;
     color: white;

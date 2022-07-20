@@ -67,7 +67,7 @@ export const ContactForm = () => {
                     <input name="firstname" placeholder="First Name" type="text" value={form.firstname} onChange={handleFormChange} required/>
                     <input name="lastname" placeholder="Last Name" type="text" value={form.lastname} onChange={handleFormChange} required/>
                     <input name="email" placeholder="Email Address" type="email" value={form.email} onChange={handleFormChange} required/>
-                    <input name="phone" placeholder="Phone No." type="phone" value={form.phone} onChange={handleFormChange} />
+                    <input name="phone" placeholder="Phone No." type="tel" value={form.phone} onChange={handleFormChange} max="16" min="10" pattern="^\+{0,1}[0-9]{10,15}"/>
                     <textarea name="message" placeholder="Message" type="text" value={form.message} onChange={handleFormChange} required></textarea>
                     <button type="submit" className="btn"><span>Submit</span></button>
                 </form>
