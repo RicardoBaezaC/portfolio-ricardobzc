@@ -1,5 +1,6 @@
 import './Projects.css'
 import StarWars from '../../assets/img/star-wars-api.png'
+import Flights from '../../assets/img/flight-app.png'
 import { Card } from '../Card/Card'
 
 export const Projects = () => {
@@ -10,6 +11,12 @@ export const Projects = () => {
       description: "Project that shows the Star Wars characters",
       imgURL: StarWars,
       url: "https://starwars-api-ricardobzc.netlify.app/"
+    },
+    {
+      title: "Flights Widget Simulation",
+      description: "Project that shows animations on a flights widget",
+      imgURL: Flights,
+      url: "https://flights-app-ricardobzc.netlify.app/"
     },
     {
       title: "SiGAC",
