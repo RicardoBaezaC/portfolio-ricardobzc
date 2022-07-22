@@ -33,6 +33,10 @@
     border-radius: inherit;
 }
 
+.card span{
+    padding: 0.3rem;
+}
+
 .card-container:hover .card{
     cursor: pointer;
     animation: card-text 0.5s ease-in-out forwards;
