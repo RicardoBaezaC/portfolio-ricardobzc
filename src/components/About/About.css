@@ -40,6 +40,15 @@
     aspect-ratio: 1;
     border-radius: 10px;
     box-shadow: -20px 30px 30px black;
+    opacity: 0;
+    transform: translateX(40%);
+    transition: transform ease-in-out 0.5s;
+}
+
+.show-effect {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: transform ease-in-out 0.5s;
 }
 
 .about-photo:hover{

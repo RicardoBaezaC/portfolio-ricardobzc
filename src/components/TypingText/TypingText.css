@@ -13,7 +13,15 @@
   align-items: center;
 }
 
-.typing-text span {
+.typing-text {
+  min-height: calc(var(--text-size) + 1rem);
+  font-size: var(--text-size);
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.typing-text p {
   min-height: calc(var(--text-size) + 1rem);
   font-size: var(--text-size);
   font-weight: 700;
